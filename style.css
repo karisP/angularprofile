@@ -1,5 +1,81 @@
-profile{
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eee;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 }
 
+profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+
+
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+
+section.image{
+    display: flex;
+    justify-content: center;
+    background-color: #A8DD5D;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+ 
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+}
+
+.email{
+    color: grey;
+}
+
+button{
+    background-color: #505355;
+    color: #A8DD5D;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+
+}
+
+label{
+    color: #A8DD5D;
+}
+
+input{
+    border-radius: 15px;
+    border: 2px solid #505355;
+    padding: 14px;
+
+}

@@ -1,9 +1,9 @@
-<section>
-    <img src="picture.jpg" alt="image of myself">
+<section class="image">
+    <img ng-src="userprofile/rufus.png" alt="image of myself">
 </section>
-<section>
-    <h5>{{$ctrl.profile.name}}</h5>
-    <p>{{$ctrl.profile.email}}</p>
-    <p>{{$ctrl.profile.bio}}</p>
-    <button>Edit</button>
+<section class="main">
+    <h2>{{$ctrl.profile.name}}</h2>
+    <p class="email">{{$ctrl.profile.email}}</p>
+    <p class="bio">{{$ctrl.profile.bio}}</p>
+    <button type="button" ng-click="$ctrl.loadEdit();">Edit</button>
 </section>

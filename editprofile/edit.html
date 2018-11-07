@@ -1,10 +1,10 @@
-<form action="">
-    <p></p>
+<form ng-submit="$ctrl.save($ctrl.userInfo)">
+    <p>Use the form below to update your profile.</p>
     <label for="">Name</label>
     <input ng-model="$ctrl.edit.name" type="text">
     <label for="">Email</label>
     <input ng-model="$ctrl.edit.email" type="text">
     <label for="">Bio</label>
     <input ng-model="$ctrl.edit.bio" type="text">
-    <button type="button" ng-click="$ctrl.saveProfile($ctrl.edit);">Save</button>
+    <button type="button" ng-click="$ctrl.save($ctrl.edit);">Update</button>
 </form>
