@@ -63,7 +63,6 @@ form{
     align-items: center;
     background-color: white;
     width: 400px;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
 
@@ -71,11 +70,23 @@ form{
 
 label{
     color: #A8DD5D;
+    align-self: flex-start;
+    margin: 10px;
 }
 
 input{
     border-radius: 15px;
-    border: 2px solid #505355;
+    border: 1px solid #505355;
     padding: 14px;
+    width: 85%;
+    background-color: #eee;
 
+}
+
+.editbtn{
+    width: 90%;
+    margin: 10px;
+}
+a{
+    display: none;
 }

@@ -11,14 +11,15 @@ function Service($location){            //allows us to access the routing inform
 
     contact.getInfo = () => {
         return contact.items;
-    }
-    contact.saveInfo = (edit) => {
-        console.log(edit);
-        contact.items = edit;
-    }
+    };
+    contact.setInfo = (editedPage) => {
+        console.log(editedPage);
+        contact.items = editedPage;
+        $location.path("/profile");
+    };
     contact.loadEdit = () => {
-        $location.path("/editprofile");            //pulls from the route
-    }
+        $location.path("/edit-profile");            //pulls from the route
+    };
 
 }
 

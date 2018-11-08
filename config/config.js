@@ -6,7 +6,7 @@ angular
             .when("/profile",{
                 template: "<profile></profile>"
             })
-            .when("/editprofile",{
+            .when("/edit-profile",{
                 template: "<edit></edit>"
             })
             .otherwise({ redirectTo: "/profile" });
